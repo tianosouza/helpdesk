@@ -17,10 +17,10 @@ public class UserEntity {
   private UUID id;
 
 
-  @Column(unique = true)
+  //@Column(unique = true)
   private String username;
 
-  @Column(unique = true)
+  //@Column(unique = true)
   private String email;
 
   @Column(name = "created_at")
